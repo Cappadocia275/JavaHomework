@@ -1,57 +1,57 @@
 package day9_ifElseSwitch;
 
 public class HomeworkIfElseSwitch {
-    // highlight ctrl + /
+//    // highlight ctrl + /
 //    public static void main(String[] args) {
 //        int x = 10;
 //
-////        Boolean myVal = false;
-////
-////        if(myVal==true)
-////        if(myVal){
-////
-////        }
+//        Boolean myVal = false;
 //
-//        if (x) {
-//            System.out.println("HELLO TECHNO");
+//        if(myVal==true)
+//        if(myVal){
+//
+//        }
+//
+////        if (x) {
+////            System.out.println("HELLO TECHNO");
 //        } else {
 //            System.out.println("BYE");
 //        }
 //    }
 ////Options:
 ////1. HELLO TECHNO
-////2. Compile time error
+////2. Compile time error   (Answer)
 ////3. Runtime Error
 ////4. BYE
 //
-//    public class Test {
-//        public static void main(String[] args)
+//    public static class Test {
+////        public static void main(String[] args)
 //        {
 //            int x = 10;
-//            if (x)
+////            if (x)
 //                System.out.println("HELLO TECHNO");
 //            System.out.println("WELCOME");
 //
-//        else
+////        else
 //            {
 //                System.out.println("BYE");
 //            }
 //        }
-//    }
+    //}
 ////Options:
 ////1. HELLO TECHNO
 ////WELCOME
 ////2. HELLO TECHNO
 ////3. BYE
-////4. Compile time error
+////4. Compile time error    (Answer)
 //
-//    public class Test {
+////    public class Test {
 //    public static void main(String[] args) {
 //        int x = 10, y = 20;
 //
 //        if (x < y)
-//            int a = 10;
-//         else {
+////            int a = 10;
+////         else {
 //            System.out.println("BYE");
 //        }
 //    }
@@ -60,40 +60,39 @@ public class HomeworkIfElseSwitch {
 ////1. 10
 ////2. BYE
 ////3. NO output
-////4. Compile time error
+////4. Compile time error (Answer)
 //
-//    public class Test {
-//        public static void main(String[] args)
-//        {
-//            int x = 10, y = 20;
-//            //if(10 < 20)
-//            if (x < y) {
-//
-//                //if(10 > 20)
-//                if (x > y) {
-//                    System.out.println("HELLO TECHNO");
-//                } else {
-//                    System.out.println("WELCOME");
-//                }
-//            }
-//        }
-//    }
+    static class Test1 {
+        public static void main(String[] args)
+        {
+            int x = 10, y = 20;
+            //if(10 < 20)
+            if (x < y) {
+
+                //if(10 > 20)
+                if (x > y) {
+                    System.out.println("HELLO TECHNO");
+                } else {
+                    System.out.println("WELCOME");
+                }
+            }
+        }
+    }
 ////Output:
 ////1. HELLO TECHNO
 ////2. Compile time error
-////3. WELCOME
+////3. WELCOME     (Answer)
 ////4. No Output
 //
-//    public class Test {
-//        public static void main(String[] args)
-//        {
-//            if (true)
-//                ;
-//        }
-//    }
+    public static class Test {
+        public static void main(String[] args)
+        {
+            if (true)
+                ;
+        }
+    }
 ////Options:
-////1. No Output
-////2. Compile time error
+////1. No Output    (Answer)
 ////3. Runtime error
 ////4. Runtime Exception
 //    class Test {
@@ -113,12 +112,12 @@ public class HomeworkIfElseSwitch {
 //                    System.out.println("Today is fun day");
 //            }
 //        }
-//    }
+
 ////Options:
 ////1. Compile time error
 ////2. Lets work
 ////3. Run- time error
-////4. Today is fun day
+////4. Today is fun day   (Answer)
 //
 //    public class MainClass {
 
@@ -146,9 +145,9 @@ public class HomeworkIfElseSwitch {
 ////1. No Output
 ////2. Syntax error
 ////3. Lets have fun!
-////4. Compile time error
+////4. Compile time error   (Answer)
 //
-//    class MainClass {
+//    static class MainClass {
 //    public static void main(String[] args) {
 //        int x = 10;
 //
@@ -159,12 +158,12 @@ public class HomeworkIfElseSwitch {
 //    }
 ////Options:
 ////1. TECHNO
-////2. Compile time error
+////2. Compile time error   (Answer)
 ////3. No Output
 ////4. Run-time error
 //
-//    class MainClass {
-//        public static void main3(String[] args)
+//    static class MainClass {
+//        public static void main(String[] args)
 //        {
 //            int x = 10;
 //            int y = 20;
@@ -179,12 +178,12 @@ public class HomeworkIfElseSwitch {
 //        }
 //    }
 ////Options:
-////1. HELLO
+////1. HELLO   (Answer)
 ////2. No Output
 ////3. TECHNO
 ////4. Compile time error
 //
-//    class MainClass {
+//static class MainClass {
 //    public static void main(String[] args) {
 //        int x = 10;
 //        final int y = 20;
@@ -201,11 +200,11 @@ public class HomeworkIfElseSwitch {
 ////Options:
 ////1. TECHNO
 ////2. Compile time error
-////3. HELLO
+////3. HELLO      (Answer)
 ////4. NO Output
 ////Output:
 //
-//    class MainClass {
+//static class MainClass {
 //
 //        public static void main(String[] args)
 //        {
@@ -222,52 +221,53 @@ public class HomeworkIfElseSwitch {
 //    }
 ////Output:
 ////1. Compile time error
-////2. TECHNO
+////2. TECHNO    (Answer)
 ////3. HELLO
 ////4. No Output
 //
-//    class MainClass {
-//        public static void main(String arg[])
-//        {
-//            char stream = 'C';
-//            int x = 2;
-//
-//            switch (x) {
-//                case 1:
-//                    System.out.println("SCIENCE, MATHS, PHYSICS");
-//                    break;
-//                case 2:
-//                    switch (stream) {
-//                        case 'A':
-//                            System.out.println("Welcome");
-//                            break;
-//                        case 'C':
-//                            System.out.println("TechnoStudy");
-//                            break;
-//                        case 'B':
-//                            System.out.println("Have a nice day");
-//                            break;
-//                    }
-//                    break;
-//                case 3:
-//                    switch (stream) {
-//                        case 'C':
-//                            System.out.println("Welcome");
-//                            break;
-//                        case 'D':
-//                            System.out.println("In");
-//                            break;
-//                        case 'E':
-//                            System.out.println("GFG");
-//                            break;
-//                    }
-//                    break;
-//            }
-//        }
-//    }
+    static class MainClass {
+        public static void main(String arg[])
+        {
+            char stream = 'C';
+            int x = 2;
+
+            switch (x) {
+                case 1:
+                    System.out.println("SCIENCE, MATHS, PHYSICS");
+                    break;
+                case 2:
+                    switch (stream) {
+                        case 'A':
+                            System.out.println("Welcome");
+                            break;
+                        case 'C':
+                            System.out.println("TechnoStudy");
+                            break;
+                        case 'B':
+                            System.out.println("Have a nice day");
+                            break;
+                    }
+                    break;
+                case 3:
+                    switch (stream) {
+                        case 'C':
+                            System.out.println("Welcome");
+                            break;
+                        case 'D':
+                            System.out.println("In");
+                            break;
+                        case 'E':
+                            System.out.println("GFG");
+                            break;
+                    }
+                    break;
+            }
+        }
+    }
 ////    Options:
 ////1. Compile time error
 ////2. GFG
 ////3. No Output
-////4. TechnoStudy
+////4. TechnoStudy   (Answer)
 }
+

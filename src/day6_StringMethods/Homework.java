@@ -4,14 +4,14 @@ public class Homework {
 
 //    1. What is the range of short data type in Java?
 //    a) -128 to 127
-//    b) -32768 to 32767
+//    b) -32768 to 32767 (Answer)
 //    c) -2147483648 to 2147483647
 //    d) None of the mentioned
 //
 //
 //
 //    2. What is the range of byte data type in Java?
-//    a) -128 to 127
+//    a) -128 to 127  (Answer)
 //    b) -32768 to 32767
 //    c) -2147483648 to 2147483647
 //    d) None of the mentioned
@@ -28,13 +28,13 @@ public class Homework {
 //    a) 1 and 2
 //    b) 2 and 3
 //    c) 3 and 4
-//    d) All statements are correct.
+//    d) All statements are correct. (Answer)
 //
 //
 //
 //    What is the output of this program?
 //
-//    class increment {
+//static class increment {
 //        public static void main(String args[])
 //        {
 //            int g = 3;
@@ -43,13 +43,13 @@ public class Homework {
 //    }
 //    a) 25
 //    b) 24
-//    c) 32
+//    c) 32 (Answer)
 //    d) 33
 //
 //
 //    What is the output of this program?
 //
-//    class area {
+//static class area {
 //        public static void main(String args[])
 //        {
 //            double r, pi, a;
@@ -61,7 +61,7 @@ public class Homework {
 //    }
 //    a) 301.5656
 //    b) 301
-//    c) 301.56
+//    c) 301.56  (Answer)
 //    d) 301.56560000
 
 }

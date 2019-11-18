@@ -6,12 +6,12 @@ public class HomeworkStrings {
 //    a) -128 to 127
 //    b) 0 to 256
 //    c) 0 to 32767
-//    d) 0 to 65535
+//    d) 0 to 65535 (Answer)
 //
 //
 //    What is the output of this program?
 //
-//    class mainclass {
+//static class mainclass {
 //        public static void main(String args[])
 //        {
 //            char a = 'A';
@@ -19,7 +19,7 @@ public class HomeworkStrings {
 //            System.out.print((int)a);
 //        }
 //    }
-//    a) 66
+//    a) 66  (Answer)
 //    b) 67
 //    c) 65
 //    d) 64
@@ -27,7 +27,7 @@ public class HomeworkStrings {
 //
 //    What is the output of this program?
 //
-//    class asciicodes {
+//static class asciicodes {
 //        public static void main(String args[])
 //        {
 //            char var1 = 'A';
@@ -36,7 +36,7 @@ public class HomeworkStrings {
 //        }
 //    }
 //    a) 162
-//    b) 65 97
+//    b) 65 97   (Answer)
 //    c) 67 95
 //    d) 66 98
 
@@ -47,6 +47,6 @@ public class HomeworkStrings {
 //    a) charAt()
 //    b) both getChars() & charAt()
 //    c) both toCharArray() & getChars()
-//    d) All of the mentioned
+//    d) All of the mentioned  (Answer)
 
 }
